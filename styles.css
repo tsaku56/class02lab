@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  line-height: 1.6;
+  color: black;
+  background-color: rgb(179, 170, 140);
+}
+
+header {
+  background-color: peachpuff;
+}
+
+h1 {
+  font-family: "Poppins", "sans-serif";
+}
+
+.container {
+  width: 90%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.header-container {
+  padding: 1.5rem 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: 0.5s;
+  color: azure;
+}
+
+main {
+  text-align: center;
+}
+
+.main-section {
+  margin: 10px 0 0 0;
+}
+
+#uName {
+  background-color: rgb(95, 237, 247);
+  margin: auto;
+  width: 50%;
+  border: 2px solid green;
+  padding: 5px;
+  text-align: center;
+}
+
+p {
+  color: rgb(245, 219, 219);
+}
+/* looking for p.more-content class inside of sections for this code*/
+/* this more specific so it'll prioritise this line of code */
+section p.more-content {
+  background-color: rgb(103, 118, 145);
+}
+
+.more-content {
+  background-color: rgb(31, 58, 211);
+}
+
+@media (min-width: 700px) {
+  .header-container {
+    text-align: left;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  li {
+    margin: 0 0 0 1rem;
+  }
+
+  .main-container {
+    padding-top: 2rem;
+  }
+
+  .cookie-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .img-container {
+    width: 30%;
+  }
+}
