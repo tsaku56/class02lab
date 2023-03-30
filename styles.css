@@ -16,29 +16,20 @@ header {
   background-color: peachpuff;
 }
 
-h1 {
-  font-family: "Poppins", "sans-serif";
-}
-
-.container {
+.header-container {
   width: 90%;
   max-width: 1024px;
   margin: 0 auto;
-}
-
-.header-container {
   padding: 1.5rem 0;
   text-align: center;
   display: flex;
-  flex-direction: column;
 }
 
-li {
+#navli {
   list-style: none;
-  display: inline-block;
-  margin: 0 0.5rem;
+  display: flex;
+  margin: auto;
   cursor: pointer;
-  transition: 0.5s;
   color: azure;
 }
 
@@ -46,15 +37,20 @@ main {
   text-align: center;
 }
 
+h2 {
+  padding: 10px;
+  color: aliceblue;
+}
+
 .main-section {
   margin: 10px 0 0 0;
 }
 
 #uName {
-  background-color: rgb(95, 237, 247);
+  background-color: rgb(65, 61, 66);
   margin: auto;
   width: 50%;
-  border: 2px solid green;
+  border: 2px solid rgb(201, 160, 71);
   padding: 5px;
   text-align: center;
 }
@@ -72,7 +68,26 @@ section p.more-content {
   background-color: rgb(31, 58, 211);
 }
 
-@media (min-width: 700px) {
+div.scrollmenu {
+  background-color: #c49d9d;
+  overflow: auto;
+  overflow-x: scroll;
+  white-space: nowrap;
+}
+
+div.scrollmenu li {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+div.scrollmenu li:hover {
+  background-color: #740b36;
+}
+
+@media (min-width: 430px) {
   .header-container {
     text-align: left;
     flex-direction: row;
@@ -88,16 +103,11 @@ section p.more-content {
     margin: 0 0 0 1rem;
   }
 
-  .main-container {
+  #navli {
+    margin: auto;
+  }
+
+  .header-container {
     padding-top: 2rem;
-  }
-
-  .cookie-section {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .img-container {
-    width: 30%;
   }
 }

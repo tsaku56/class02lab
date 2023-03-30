@@ -78,3 +78,65 @@ if (cran.toLowerCase() === "yes" || cran.toLowerCase() === "y") {
 }
 
 /** .toUpperCase() .toLowerCase() - makes the the answer conform into either lower or upper case */
+
+let userPoints = 0;
+
+alert("Welcome to my guessing game");
+
+let user = prompt("What is your name?");
+console.log(user);
+
+if (user === "" || user === null) {
+  user = prompt("Okay whats your name?");
+}
+
+while (!user) {
+  user = prompt("What is your name? Tell us!");
+}
+
+// truthy and fasley //
+
+let x = false;
+// (!x) means false values, otherwise (x) true values
+if (!x) {
+  console.log("Hey");
+}
+
+let myMulti = ["pizza", "doritos", "salad", "popcorn", "coffee"];
+
+for (let i = 0; i < myMulti.length; i++) {
+  console.log(myMulti[i]);
+}
+
+for (let i = 0; i < myMulti.length; i++) {
+  console.log(myMulti[i]);
+}
+
+let myMulti = ["pizza", "doritos", "salad", "popcorn", "coffee"];
+
+if (answer === "yes" || answer == "y");
+userPoints++;
+
+alert(myUser + " you have " + userPoints + " points.");
+
+function guessNumber() {
+  let noGuesses = 0;
+  const random = Math.floor(Math.random() * 10) + 1;
+  let number = parseInt(prompt("Guess a number from 1 to 10. You have 4 attempts!"));
+
+  while (number >= random) {
+    number = parseInt(prompt("Too high, try again"));
+    noGuesses++;
+  }
+  while (number <= random) {
+    number = parseInt(prompt("Too low, try again"));
+    noGuesses++;
+  }
+  if (number == random) {
+    parseInt(alert("Thats correct!"));
+  } else noGuesses === 4;
+  {
+    parseInt(alert("Better luck next time!"));
+  }
+}
+guessNumber();
