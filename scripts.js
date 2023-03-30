@@ -53,7 +53,7 @@ if (myDon.toLowerCase() === "yes" || myDon.toLowerCase() === "y") {
   alert("Okay, I'll let you off.");
 }
 
-const random = "7";
+const random = Math.floor(Math.random() * 10) + 1;
 let gameGuess = prompt("Guess a number between 1 to 10. You have 4 attempts.");
 for (let i = 3; i >= 0; i--) {
   if (i == 0) {

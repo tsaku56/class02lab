@@ -10,4 +10,5 @@ This is a about creating 'About Me' page using the following;
 
 201 Class 02
 
-[Image](images/screenshotforclass02.jpg)
+[Class02Sshot](images/screenshotforclass02.jpg)
+[Class03Sshot](images/sshotclass03.jpg)
