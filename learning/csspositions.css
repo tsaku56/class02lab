@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 90%;
+  margin: 0 auto;
+}
+
+header {
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+section {
+  border: 15px solid red;
+  width: 80%;
+  margin: 5rem auto 0 auto;
+  height: 40rem;
+  position: static;
+}
+
+articles {
+  border: medium solid black;
+  margin: 1rem;
+  padding: 1rem;
+}
+/* position of relative, width to shorten it, top bottom left right to move its position */
+#one {
+  position: relative;
+  background-color: linen;
+  width: 20%;
+  top: 100px;
+}
+/* position of absolute, to the page not parent, is out of the flow of the content
+
+to be relative to its parent, change parent position to relative*/
+#two {
+  position: absolute;
+  background-color: aqua;
+  width: 50%;
+}
+/* position of fixed will be out of the flow and stay infront of screen */
+#three {
+  background-color: beige;
+  width: 50%;
+  position: fixed;
+}

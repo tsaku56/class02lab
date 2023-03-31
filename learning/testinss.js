@@ -140,3 +140,5 @@ function guessNumber() {
   }
 }
 guessNumber();
+
+// extra prep work for functions

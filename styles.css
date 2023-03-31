@@ -10,10 +10,19 @@ body {
   line-height: 1.6;
   color: black;
   background-color: rgb(179, 170, 140);
+  width: 90%;
+  margin: 0 auto;
 }
 
 header {
   background-color: peachpuff;
+  margin-bottom: 8px;
+}
+
+div {
+  border: 2px solid black;
+  border-style: dotted;
+  padding: 8px;
 }
 
 .header-container {
@@ -23,6 +32,7 @@ header {
   padding: 1.5rem 0;
   text-align: center;
   display: flex;
+  border: none;
 }
 
 #navli {
@@ -42,14 +52,33 @@ h2 {
   color: aliceblue;
 }
 
-.main-section {
-  margin: 10px 0 0 0;
+.sectionstart {
+  position: static;
+}
+
+#one {
+  position: relative;
+  width: 49%;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+}
+
+#two {
+  position: relative;
+  width: 49%;
+  display: inline-block;
+  margin: 0 0 10px 10px;
+}
+
+#goals {
+  position: relative;
+  margin: 0 0 8px 0;
 }
 
 #uName {
   background-color: rgb(65, 61, 66);
-  margin: auto;
-  width: 50%;
+  margin: auto auto 10px auto;
+  width: 75%;
   border: 2px solid rgb(201, 160, 71);
   padding: 5px;
   text-align: center;
@@ -87,7 +116,7 @@ div.scrollmenu li:hover {
   background-color: #740b36;
 }
 
-@media (min-width: 430px) {
+@media (min-width: 320px) {
   .header-container {
     text-align: left;
     flex-direction: row;

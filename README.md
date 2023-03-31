@@ -12,3 +12,7 @@ This is a about creating 'About Me' page using the following;
 
 [Class02Sshot](images/screenshotforclass02.jpg)
 [Class03Sshot](images/sshotclass03.jpg)
+
+# Class-04
+
+### Links, css positioning, functions.
