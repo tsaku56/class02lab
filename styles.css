@@ -88,14 +88,14 @@ h2 {
   position: relative;
   width: 49%;
   display: inline-block;
-  margin: 0 10px 10px 0;
+  margin: 0 0 10px 0;
 }
 
 #two {
   position: relative;
   width: 49%;
   display: inline-block;
-  margin: 0 0 10px 10px;
+  margin: 0 0 10px 0;
 }
 
 #goals {
