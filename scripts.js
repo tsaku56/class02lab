@@ -72,7 +72,7 @@ function myQuiz() {
 
   const breakList = ["coffee", "cereal", "toast"];
   console.log(breakList[0]);
-  let myMulti = prompt("What do I like to have for breakfast?");
+  let myMulti = prompt("What do I like to have for breakfast? ☕🥄🍞");
   for (let i = 5; i >= 0; i--) {
     if (i == 0) {
       alert("Better luck next time on the breakfast quiz " + myUser);

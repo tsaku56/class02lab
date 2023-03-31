@@ -19,10 +19,38 @@ header {
   margin-bottom: 8px;
 }
 
+button {
+  background-color: #548bdf;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 1px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button:hover {
+  color: rgb(65, 61, 66);
+  background-color: rgb(201, 160, 71);
+  transition: 0.5s;
+}
+
 div {
   border: 2px solid black;
   border-style: dotted;
   padding: 8px;
+}
+
+h1 {
+  font-size: large;
+  font-weight: 700;
+}
+
+h1:hover {
+  color: rgb(83, 106, 240);
+  transition: 0.5s;
 }
 
 .header-container {
@@ -80,8 +108,16 @@ h2 {
   margin: auto auto 10px auto;
   width: 75%;
   border: 2px solid rgb(201, 160, 71);
+  border-radius: 20px;
   padding: 5px;
   text-align: center;
+}
+
+#uName:hover {
+  background-position: -200px top;
+  background-image: url(https://thumbs.gfycat.com/AbandonedAnguishedCatfish-size_restricted.gif);
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0) 20%, rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.9) 100%),
+    url(https://thumbs.gfycat.com/AbandonedAnguishedCatfish-size_restricted.gif);
 }
 
 p {

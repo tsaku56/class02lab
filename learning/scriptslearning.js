@@ -47,3 +47,6 @@ userInput = Ross;
 console.log(userInput);
 // this console logs the function process itself!
 console.log(yesOrNoPrompt);
+
+// back tracing function
+function myQuiz()
