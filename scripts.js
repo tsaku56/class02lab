@@ -9,7 +9,7 @@ function myQuiz() {
   let myQues = prompt(myUser + " do you want to read this, yes or no? Positivity will help your score!");
   if (myQues.toLowerCase() === "yes" || myQues.toLowerCase() === "y") {
     userPoints++;
-    alert("You're too nice!");
+    alert("You're too nice! 😊");
   } else {
     //console.log("That's fair.");
     alert("I don't blame you.");
@@ -27,7 +27,7 @@ function myQuiz() {
   let myFood = prompt("Would you eat a cheese burger, yes or no?");
   if (myFood.toLowerCase() === "yes" || myFood.toLowerCase() === "y") {
     userPoints++;
-    alert("Good answer, why not have two!");
+    alert("Good answer, why not have two! 🍔🍔");
   } else {
     //console.log("That's why you look so sad :(");
     alert("That's why you look so sad :(");
@@ -38,7 +38,7 @@ function myQuiz() {
     alert("Tough luck.");
   } else {
     userPoints++;
-    alert("You're made of the tough stuff!");
+    alert("You're made of the tough stuff! 🦾");
   }
 
   let myDon = prompt(myUser + " do you want to try this again, yes or no?");
@@ -51,7 +51,7 @@ function myQuiz() {
   }
 
   const random = Math.floor(Math.random() * 10) + 1;
-  let gameGuess = prompt("Guess a number between 1 to 10. You have 4 attempts.");
+  let gameGuess = prompt("Guess a number between 1 to 10. You have 4 attempts. The number is random.");
   for (let i = 3; i >= 0; i--) {
     if (i == 0) {
       alert("Better luck next time " + myUser + " it was " + random);
